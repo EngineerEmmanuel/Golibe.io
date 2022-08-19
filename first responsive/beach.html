@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Anton&family=Archivo+Black&family=Bangers&family=Dancing+Script:wght@500&family=Fraunces:opsz,wght@9..144,100&family=Josefin+Sans:wght@100&family=Montserrat:wght@100&family=Open+Sans&family=Quicksand:wght@300&family=Roboto:wght@300&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+       
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Figtree;
+        }
+        .logo{
+            font-weight: bolder;
+            font-family: Dancing Script;
+            font-weight: bolder;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul li{
+            display: inline;
+            padding: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+            font-weight: bolder;
+            font-family: Dancing Script;
+        }
+        .sectionA{
+            background-image: url(tropical-beach.jpg);
+            height: 300%;
+            width: 100%;
+            background-position:cover;
+            background-size:cover;
+            background-repeat: no-repeat;
+            opacity:0.8;
+        }
+        .sectionA-text{
+            text-align: center;
+            margin-top: 18%;
+        }
+        .sectionA-text h1{
+            font-weight: bolder;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .sectionA-text p1{
+            font-style: italic;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 500px;
+        }
+        .btn1 button{
+            padding: 1%;
+            background-color: transparent;
+            border: 1px solid white;
+            margin-top: 4%;
+            margin-bottom: 2%;
+        }
+        .btn1 button:hover{
+            background-color:rgba(255, 255, 255, 0.952);
+        }
+        .beach1{
+            max-width: 40%;
+            max-height: 30%;
+        }
+        .beach1 h4{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0 5px;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 5px;
+        }
+        .sectionB h1{
+            text-align: center;
+            padding-top: 1%;
+            font-style: italic;
+            font-family: Dancing Script;
+
+        }
+        .sectionB{
+            background-image: url(app2.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            height: fit-content;
+        }
+        .btn2{
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            
+        }
+        .btn2 button{
+            padding:0.5%;
+            /* border-radius: 4px;
+            border:2px solid transparent; */
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color:rgb(45, 45, 112);
+            border: 1px solid transparent;
+            border-radius: 3px;
+            cursor: pointer;
+
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+
+        }
+        input{
+            padding: 0.5%;
+            outline: none;
+            /* text-align: center; */
+            border-radius: 4px;
+            border:0.5px solid;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+        .sectionC{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            background-color: rgb(45, 45, 112);
+        }
+        .sectionC h1{
+            padding-top: 5%;
+            font-family: Dancing Script;
+
+        }
+       
+        #on{
+            padding-bottom: 2%;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 4%;
+
+        }
+        #sub{
+            background-color: red;
+            cursor: pointer;
+        }
+        .beaches{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+        }
+        @media(max-width:680px){
+            .beaches{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .beach1{
+                max-width: 100%;
+                max-height: fit-content;
+            }
+            .beach1 h4{
+                text-align: justify;
+            }
+            
+        } 
+    </style>
+</head>
+<body>
+    <div class="sectionA">
+    <header>
+        <div class="logo">GOLIBE</div>
+        <ul>
+            <li>Destinations</li>
+            <li>Our Services</li>
+            <li>Bookings</li>
+        </ul>
+    </header>
+    <div class="sectionA-text">
+        <h1>WELCOME TO GOLIBE</h1>
+        <p1>Where Luxurious Vacation Meets Affordabilty...</p1>
+        <div class="btn1"><button onmouseover="this.innerHTML='DON`T MISS OUT,BOOK HERE.'">INSTANT BOOKINGS</button></div>
+   
+    </div>
+</div>
+<div class="sectionB">
+    <h1>Our Services</h1>
+    <div class="beaches">
+        <div class="beach1">
+            <img src="beautiful-v1 (1).jpg" alt="Image of a beach house">
+            <h4>We make vacations pleasurable and unforgetable, with our beautiful exortic <b>Island apartment,</b>Which are really cool and affordable. It is a 
+            place to be in whenever you want to have a good time with your spouse or family.</h4>
+                <div class="btn2"><button id="buy1" onclick="mySub1()">BOOK THIS</button></div>
+                
+        </div>
+        <div class="beach1">
+            <img src="beautiful-v2.jpg" alt="Image of a beach house">
+            <h4>Imagine a place where you will be opportuned to view nature at it`s best, having a nice solo time, maditating on some vital things,making some decisions that would take your life,career, business to the next level?
+            </h4>
+                <div class="btn2"><button id="buy2" onclick="mySub2()">BOOK THIS</button></div>
+                
+        </div>
+        <div class="beach1">
+            <img src="beautify-v3.jpg" alt="Image of a beach house">
+            <h4>At GOLIBE,we bring to you that millionaire lifestyle that you have been dreaming for at avery affordable price. A perfect yatch to have a cool aqua-party with family,friends,colleagues..</h4>
+                <div class="btn2" id="on"><button id="buy3" onclick="mySub3()">BOOK THIS</button></div>
+                
+        </div>
+    </div>
+</div>
+<div class="sectionC">
+    <h1>Newsletter</h1>
+    <p1>Subscribe to our news letter so that you can be getting emails that will enable you to take the right decisions on vactions&#128515;</p1>
+    <form>
+    <input type="email" placeholder="Email..." required>
+    <input type="submit" id="sub" onclick="mail()">
+</form>
+</div>
+<footer>
+    <div class="logo">GOLIBE</div>
+    <ul>
+        <li>Blog</li>
+        <li>Bookings</li>
+        <li>Services</li>
+    </ul>
+</footer>
+<script>
+    function mySub1(){
+        document.getElementById("buy1").innerHTML = "THANKS FOR BOOKING";
+    }
+    function mySub2(){
+        document.getElementById("buy2").innerHTML = "THANKS FOR BOOKING";
+    }
+    function mySub3(){
+        document.getElementById("buy3").innerHTML = "THANKS FOR BOOKING";
+    }
+    function mail(){
+        let x = "Thanks For Subscribing";
+        alert(x);
+    }
+</script>
+</body>
+</html>
